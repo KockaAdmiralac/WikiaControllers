@@ -1,0 +1,10 @@
+{
+    "description": "Unknown use",
+    "namespace": "AdEngine",
+    "methods": {
+        "getCollapse": {
+            "description": "Just sets the cache validity. Unknown use"
+        }
+    },
+    "todo": true
+}

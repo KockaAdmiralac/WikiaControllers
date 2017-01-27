@@ -1,0 +1,10 @@
+{
+    "description": "Controller to get latest earned badges",
+    "namespace": "AchievementsII",
+    "methods": {
+        "index": {
+            "description": "Returns latest earned badges"
+        }
+    },
+    "todo": true
+}

@@ -1,0 +1,30 @@
+{
+	"description": "Renders the header chrome and side rail on Special:AdminDashboard",
+	"namespace": "AdminDashboard",
+	"methods": {
+		"chrome": {
+			"description": "Renders the Admin Dashboard article chrome on Special:AdminDashboard",
+			"parameters": {
+				"tab": {
+					"description": "Type of tab to render",
+					"type": [
+						"general",
+						"advanced"
+					],
+					"default": "general",
+					"required": false,
+					"note": "If invalid, 'advanced' will be used as the value"
+				}
+			}
+		}
+	},
+	"examples": [
+		{
+			"method": "chrome"
+		},
+		{
+			"method": "chrome",
+			"tab": "advanced"
+		}
+	]
+}

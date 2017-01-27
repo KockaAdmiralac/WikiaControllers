@@ -1,0 +1,27 @@
+{
+    "description": "Controller for Ad Recovery engine",
+    "namespace": "ARecoveryEngine",
+    "methods": {
+        "getDelivery": {
+            "description": "Returns a JavaScript script of unknown use",
+            "examples": [{}],
+            "todo": "Find what does the script do"
+        },
+        "getSourcePointMessaging": {
+            "description": "Returns a JavaScript script of unknown use",
+            "examples": [{}],
+            "todo": "Find what does the script do"
+        },
+        "getBootstrap": {
+            "description": "Returns a JavaScript script, possibly [Bootstrap](http://getbootstrap.com)",
+            "examples": [{}],
+            "todo": "Find what exactly the method returns"
+        },
+        "getLogInfo": {
+            "description": "Returns `var arecoveryEngineLogInfoStatus=1;`.",
+            "examples": [{}],
+            "todo": "Find where is this used"
+        }
+    },
+    "note": ""
+}

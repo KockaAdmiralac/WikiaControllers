@@ -1,0 +1,31 @@
+{
+	"description": "Admin Dashboard Special Page",
+	"namespace": "AdminDashboard",
+	"methods": {
+		"index": {
+			"description": "Displays the main menu for the admin dashboard",
+			"parameters": {
+				"tab": {
+					"description": "Tab to display",
+					"type": [
+						"general",
+						"advanced"
+					],
+					"default": "general",
+					"required": false,
+					"note": "If invalid, 'advanced' will be used as the value"
+				}
+			},
+			"note": "If the user does not have `admindashboard` right it will throw an error"
+		}
+	},
+	"examples": [
+		{
+			"method": "chrome"
+		},
+		{
+			"method": "chrome",
+			"tab": "advanced"
+		}
+	]
+}

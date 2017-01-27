@@ -1,0 +1,80 @@
+{
+    "description": "Special page controller for Special:AbTesting",
+    "namespace": "AbTesting",
+    "methods": {
+        "index": {
+            "description": "Possibly generates the content of Special:AbTesting",
+            "note": "Usable only by Staff",
+            "todo": "Document"
+        },
+        "modal": {
+            "description": "Possibly generates the content of a modal on Special:AbTesting",
+            "note": "Usable only by Staff",
+            "todo": "Document"
+        },
+        "save": {
+            "description": "Saves an A/B test",
+            "parameters": {
+                "id": {
+                    "description": "Experiment ID to modify",
+                    "type": "int",
+                    "required": "One of `id` or `name`"
+                },
+                "name": {
+                    "description": "Name of the experiment to create or modify",
+                    "type": "string",
+                    "required": "One of `id` or `name`"
+                },
+                "description": {
+                    "description": "Description of the experiment",
+                    "type": "string",
+                    "required": false
+                },
+                "groups": {
+                    "description": "Possibly user groups to apply the experiment on",
+                    "type": "array<string>",
+                    "required": false,
+                    "todo": "Confirm type"
+                },
+                "ranges": {
+                    "description": "Ranges of unknown",
+                    "type": "array<string>",
+                    "required": false,
+                    "todo": true
+                },
+                "styles": {
+                    "description": "Possibly styles that are loaded during the experiment",
+                    "type": "array<string>",
+                    "required": false,
+                    "todo": "Confirm type"
+                },
+                "start_time": {
+                    "description": "Possibly start time of the experiment in the timestamp format",
+                    "type": "string",
+                    "required": true,
+                    "todo": "Find timestamp format"
+                },
+                "end_time": {
+                    "description": "Possibly end time of the experiment in the timestamp format",
+                    "type": "string",
+                    "required": true,
+                    "todo": "Find timestamp format"
+                },
+                "ga_slot": {
+                    "description": "Unknown",
+                    "type": "unknown",
+                    "required": false,
+                    "todo": true
+                },
+                "flags": {
+                    "description": "Flags for the experiment. Format unknown",
+                    "type": "unknown",
+                    "required": false,
+                    "todo": "Document format"
+                }
+            },
+            "note": "Should only be usable by Staff but that isn't confirmed"
+        }
+    },
+    "note": ""
+}

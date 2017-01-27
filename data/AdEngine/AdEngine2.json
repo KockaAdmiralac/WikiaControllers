@@ -1,0 +1,22 @@
+{
+    "description": "AdEngine II Controller. Unknown use",
+    "namespace": "AdEngine",
+    "methods": {
+        "ad": {
+            "description": "Action to display an ad (or not). Unknown use",
+            "parameters": {
+                "includeLabel": {
+                    "description": "Unknown",
+                    "type": "unknown",
+                    "required": false
+                },
+                "": {
+                    
+                }
+            },
+            "examples": [{}]
+        }
+    },
+    "note": "",
+    "todo": true
+}

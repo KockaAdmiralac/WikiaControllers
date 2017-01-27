@@ -1,0 +1,26 @@
+{
+    "description": "",
+    "namespace": "",
+    "methods": {
+        "chrome": {
+            "description": "",
+            "parameters": {
+                "p": {
+                    "description": "",
+                    "type": "",
+                    "default": "",
+                    "required": false,
+                    "note": ""
+                }
+            },
+            "examples": [
+                {
+                    "_wiki": "",
+                    "param1": ""
+                }
+            ],
+            "note": ""
+        }
+    },
+    "note": ""
+}

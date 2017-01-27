@@ -1,0 +1,23 @@
+{
+    "description": "API controller for A/B testing related data",
+    "namespace": "AbTesting",
+    "methods": {
+        "externalData": {
+            "description": "Gets CSS used in certain A/B experiments",
+            "parameters": {
+                "ids": {
+                    "description": "Comma-delimited list of experiments. Experiment is in the format `experiment_name.version_id.group_id`",
+                    "type": "string",
+                    "default": "",
+                    "required": false
+                }
+            },
+            "examples": [
+                {
+                    "ids": "PAGE_HEADER_RDPS_EXPERIMENT.408.321"
+                }
+            ],
+            "note": "This returns a JSONP response"
+        }
+    }
+}
